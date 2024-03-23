@@ -4,11 +4,19 @@
     box-sizing: border-box;
 }
 
+header {
+    position: sticky;
+    top: -50px;
+}
+
 .logo {
     width: 150px;
     height: 146px;
     margin-left: 80px;
     margin-top: 49px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, .3);
 }
 
 .menu_buttons {
@@ -17,11 +25,41 @@
     align-items: center;
     justify-content: center;
     gap: 30px;
+    position: relative;
+    bottom: 13vh;
+    left: 10vw;
 }
 
 button {
     background: none;
     border: none;
     cursor: pointer;
+    font-size: 42px;
+    color: #735319;
+    text-shadow: 0px 4px 6px rgba(0, 0, 0, .3);
 }
 
+body {
+    background-color: #FFEEDA;
+}
+
+p {
+    color: #735319;
+    width: 400px;
+    font-size: 42px;
+    text-align: right;
+}
+
+.wrapper {
+    background-color: #E5D8C7;
+    width: 1761px;
+    height: 796px;
+    margin-left: 3vw;
+    border-radius: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, .3);
+}
+
+.displayed {
+    display: flex;
+    float: right;
+}
